@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.welcome-css{
+  background-image: url('../src/image/welcome-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} 
+
+@media (max-width:640px){
+  .welcome-css{
+    background-image: none;
+    background-color: #fecaca;
+  }
+}
+.welcome-css img{
+  height: 100%;
+  width: 100%;
+}
+
+.mySkills-css-10f2{
+  background-image: url('../src/image/welcome-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+@media (min-width:345px){
+  .myskills-parent{
+    height: 53rem;
+  }
+}
+
+
+.exp-img{
+  background-image: url('../src/image/exp-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.exp-img img{
+  height: 100%;
+  width: 100%;
+}
+.edu-img{
+  background-image: url('../src/image/education.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.edu-img img{
+  height: 100%;
+  width: 100%;
+}
+
+
+.star-css{
+  background-image: url('../src/image/blur.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter:blur(2px);
+  z-index: -1;
+}
+
+
+.star-text{
+  z-index: 999;
+  height:100%;
+  width: 100%;
+  background: rgb(225, 225, 225,.1);
+  backdrop-filter:blur(20px);
+}
