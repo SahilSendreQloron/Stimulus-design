@@ -4,7 +4,7 @@ function Education() {
   return (
     <div className='lg:w-[100%] h-[55rem] sm:h-80 bg-slate-500 flex flex-col sm:flex-row'>
     
-    <div className='w-[100%] h-[50%] sm:w-[50%] sm:h-[100%]  bg-yellowcst order-2'>    
+    <div className='w-[100%] h-[50%] sm:w-[50%] sm:h-[100%]  bg-yellowcst order-2 sm:order-1'>    
     <div className='h-[40%] w-[100%] p-8'>
         <p className='text-2xl sm:text-2xl md:text-3xl lg:text-4xl text-white'>My Education</p>
         <br />
@@ -35,7 +35,7 @@ function Education() {
     </div>    
 </div>
     </div>
-    <div className='edu-img sm:w-[50%] sm:h-[100%] w-[100%] h-[50%] order-1'>
+    <div className='edu-img sm:w-[50%] sm:h-[100%] w-[100%] h-[50%] order-1 sm:order-2'>
 
     </div>
 </div>
